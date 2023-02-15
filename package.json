@@ -3,13 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.9",
+    "@mui/styles": "^5.11.9",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.2.5",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
+    "redux": "^4.2.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -17,7 +22,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "json-server -p3001 --watch db.json"
+    "server": "json-server -p3001 --watch db.json",
+    "eslint": "eslint ."
   },
   "eslintConfig": {
     "extends": [
@@ -38,6 +44,9 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "eslint-plugin-jest": "^27.2.1",
     "json-server": "^0.17.1"
   }
 }

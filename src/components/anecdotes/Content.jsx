@@ -1,5 +1,4 @@
 import React from "react";
-import Course from "./Course";
 import Part from "./Part";
 import Part2 from "./Part2";
 
@@ -17,7 +16,6 @@ const Content = ({ course }) => {
     <div>
       {/* <Part anecdotes={anecdotes} /> */}
       <Part2 anecdotes={anecdotes} />
-      <Course course={course} />
     </div>
   );
 };

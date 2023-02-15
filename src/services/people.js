@@ -1,5 +1,6 @@
 import axios from 'axios'
-const baseUrl = 'http://localhost:3001/persons'
+// const baseUrl = 'http://localhost:3001/api/persons'
+const baseUrl = 'https://backend-mern-stack-git-main-romero23082000.vercel.app/api/persons'
 
 const getAll = () => {
   const request = axios.get(baseUrl)

@@ -18,7 +18,7 @@ const Paises = () => {
       query: "London",
     };
     axios
-      .get(`http://api.weatherstack.com/current`, { params })
+      .get(`https://api.weatherstack.com/current`, { params })
       .then((response) => {
         console.log(response);
       })
